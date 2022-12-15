@@ -2,15 +2,76 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #202d36;
+}
 header{
     background-color: #2b3743;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 p{
+    font-weight: bold;
+    font-size: 1.2rem;
     color: white;
-    margin: 0.5rem 2rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
-span{
+header i{
 color: white;
+margin-right: 3rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+article{
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+input{
+    border-radius: 0.25rem;
+    background-color: #2b3743;
+    border: #2b3743 solid;
+    width: 20rem;
+    padding-left: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+label i {
+    color: white;
+    margin-left: -19rem;
+}
+select{
+    border: #2b3743 solid;
+    background-color: #2b3743;
+    border-radius: 0.25rem;
+    color: white;
+    padding: 0 1.5rem;
+    margin-right: -2.5rem;
+}
+section{
+    background-color: #2b3743;
+    width: auto;
+border-radius: 0.45rem;
+}
+.card{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h3{
+    color: white;
+}
+section p{
+    margin-bottom: 0.5rem;
+}
+.text{
+    text-align: start;
 }
