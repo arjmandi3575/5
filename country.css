@@ -1,31 +1,61 @@
+@font-face {
+    font-family: "iranyekan" ;
+    src: url("fonts/iranyekan/eot/iranyekanwebregular.eot?#") ,
+    url("fonts/iranyekan/ttf/iranyekanwebregular.ttf") format('truetype'),
+    url("fonts/iranyekan/woff/iranyekanwebregular.woff") format('woff'),
+    url("fonts/iranyekan/svg/iranyekanwebregular.svg") format('svg');
+}
+@font-face {
+    font-family: "iranyekan_numbers" ;
+    src: url("fonts/iranyekan_numbers/eot/iranyekanwebregular(fanum).eot?#") ,
+    url("fonts/iranyekan_numbers/ttf/iranyekanwebregular(fanum).ttf") format('truetype'),
+    url("fonts/iranyekan_numbers/woff/iranyekanwebregular(fanum).woff") format('woff'),
+    url("fonts/iranyekan_numbers/svg/iranyekanwebregular(fanum).svg") format('svg');
+}
 *{
     margin: 0;
     padding: 0;
 }
+html{
+    box-sizing: border-box;
+}
 body{
+    font-family: 'iranyekan_numbers','iranyekan';
     background-color: #202d36;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
 }
 header{
     background-color: #2b3743;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 1.3rem;
 }
-p{
+header p {
+    font-family: 'iranyekan_numbers','iranyekan';
     font-weight: bold;
     font-size: 1.2rem;
     color: white;
-    margin-left: 3rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-left: 2.8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+header i span{
+    font-family: 'iranyekan_numbers','iranyekan';
+color: #dde2e7da; 
 }
 header i{
 color: white;
-margin-right: 3rem;
-margin-top: 1rem;
-margin-bottom: 1rem;
+margin-right: 2.8rem;
+margin-top: 0.85rem;
+margin-bottom: 0.5rem;
+font-weight: lighter;
 }
 article{
+    margin-bottom: 1.3rem;
     margin-top: 0.5rem;
     margin-left: 3rem;
     width: 90%;
@@ -33,7 +63,8 @@ article{
     flex-direction: row;
     justify-content: space-between;
 }
-input{
+article label input{
+    font-family: 'iranyekan_numbers','iranyekan';
     border-radius: 0.25rem;
     background-color: #2b3743;
     border: #2b3743 solid;
@@ -47,7 +78,8 @@ label i {
     color: white;
     margin-left: -19rem;
 }
-select{
+article select{
+    font-family: 'iranyekan_numbers','iranyekan';
     border: #2b3743 solid;
     background-color: #2b3743;
     border-radius: 0.25rem;
@@ -55,23 +87,149 @@ select{
     padding: 0 1.5rem;
     margin-right: -2.5rem;
 }
-section{
-    background-color: #2b3743;
-    width: auto;
-border-radius: 0.45rem;
-}
 .card{
-    margin-top: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-h3{
-    color: white;
+section img{
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+
+}
+section{
+    margin-top: 1rem;
+    background-color: #2b3743;
+    width: auto;
+    border-radius: 0.3rem;
+   
+}
+h4{
+    color: white !important;
+    margin-bottom: 1rem;
+    font-size: 1rem;
 }
 section p{
-    margin-bottom: 0.5rem;
+    color: #dde2e7da;
+    font-size: 0.8rem;
+}
+section ins{
+    font-size: 0.6rem;
+    color: #dde2e781;
+    text-decoration: none;
 }
 .text{
-    text-align: start;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+
+}
+/* res */
+@media(max-width:1310px){
+ section{
+    width: 11.5rem;
+ }
+ img{
+    width: 11.5rem;
+ }
+ p{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+ }
+ header i span{
+    margin-right: 0.5rem;
+ }
+article{
+    margin-left: 2rem;
+}
+h4{
+    font-size: 0.75rem;
+}
+}
+@media(max-width:850px){
+    section{
+       width: 9.85rem;
+    }
+    img{
+       width: 9.85rem;
+    }
+   input{
+    width: 15rem;
+   }
+   }
+   @media(max-width:750px){
+    header{
+        justify-content: space-between;
+        margin-bottom: 1.3rem;
+}
+article{
+    justify-content: space-around;
+}
+article input{
+    width: 15rem !important;
+}
+article i {
+    margin-left: -14rem;
+}
+}
+@media(max-width:660px){
+    article{
+        margin-bottom: 1.3rem;
+        margin-top: 0.5rem;
+        margin-left: 3rem;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    article label input{
+        border-radius: 0.25rem;
+        width: 15rem;
+        padding-left: 3rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    label i {
+        margin-left: -14rem;
+    }
+    article select{
+        padding: 0 1.5rem;
+        margin-right: -2.5rem;
+        margin-bottom: 0.5rem;
+        width: 10rem;
+    }
+    .card{
+        align-items: center;
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+    }
+    section img{
+        border-top-left-radius: 0.3rem;
+        border-top-right-radius: 0.3rem;
+        width: 12rem ;
+    
+    }
+    section{
+        width: 12rem;
+        
+    }
+    h4{
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    section p{
+        color: #dde2e7da;
+        font-size: 0.8rem;
+}
+}
+@media(max-width:550px){
+ section {
+margin-right: 0;
+margin-left: 0;
+width: 10rem;
+}
+section img {
+    width: 10rem;
+}
+
 }
