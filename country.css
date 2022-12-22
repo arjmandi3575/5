@@ -144,6 +144,18 @@ article{
 h4{
     font-size: 0.75rem;
 }
+article label{
+    width: 30%;
+}
+article select{
+    width: 34%;
+    height: 3rem;
+  }
+  article label{
+    width: 30%;
+    margin-top: 0.5rem;
+    height: 3rem;
+  }
 }
 @media(max-width:850px){
     section{
@@ -207,29 +219,15 @@ article i {
         border-top-left-radius: 0.3rem;
         border-top-right-radius: 0.3rem;
         width: 12rem ;
-    
     }
     section{
-        width: 12rem;
-        
+        width: 12rem;        
     }
     h4{
         margin-bottom: 1rem;
         font-size: 1rem;
     }
     section p{
-        color: #dde2e7da;
         font-size: 0.8rem;
 }
-}
-@media(max-width:550px){
- section {
-margin-right: 0;
-margin-left: 0;
-width: 10rem;
-}
-section img {
-    width: 10rem;
-}
-
 }
