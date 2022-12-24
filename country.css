@@ -12,222 +12,96 @@
     url("fonts/iranyekan_numbers/woff/iranyekanwebregular(fanum).woff") format('woff'),
     url("fonts/iranyekan_numbers/svg/iranyekanwebregular(fanum).svg") format('svg');
 }
-*{
+* {
     margin: 0;
     padding: 0;
 }
-html{
+html {
     box-sizing: border-box;
 }
-body{
+body {
     font-family: 'iranyekan_numbers','iranyekan';
     background-color: #202d36;
 }
-.navbar{
-    display: flex;
-    flex-direction: column;
-}
-header{
+header {
     background-color: #2b3743;
+    box-shadow: 0 0 3px 0 #141c22;
+}
+.container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 1.3rem;
+    margin: auto;
+    width: 90%;
 }
 header p {
-    font-family: 'iranyekan_numbers','iranyekan';
-    font-weight: bold;
-    font-size: 1.2rem;
     color: white;
-    margin-left: 2.8rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+header i {
+    color: white;
+    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
 }
 header i span{
     font-family: 'iranyekan_numbers','iranyekan';
-color: #dde2e7da; 
 }
-header i{
-color: white;
-margin-right: 2.8rem;
-margin-top: 0.85rem;
-margin-bottom: 0.5rem;
-font-weight: lighter;
-}
-article{
-    margin-bottom: 1.3rem;
-    margin-top: 0.5rem;
-    margin-left: 3rem;
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-article label input{
-    font-family: 'iranyekan_numbers','iranyekan';
-    border-radius: 0.25rem;
+input{
+    color: white;
     background-color: #2b3743;
-    border: #2b3743 solid;
-    width: 20rem;
-    padding-left: 3rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    color: white;
-}
-label i {
-    color: white;
-    margin-left: -19rem;
-}
-article select{
+    border: #2b3743 solid 2px;
+    padding: 0.5rem;
+    padding-left: 5rem;
     font-family: 'iranyekan_numbers','iranyekan';
-    border: #2b3743 solid;
+    box-shadow: 0 0 3px 0 #141c22;
+}
+svg{
+    color: white;
+    margin-left: -12rem;
+}
+select{
+    box-shadow: 0 0 3px 0 #141c22;
+    color: white;
     background-color: #2b3743;
     border-radius: 0.25rem;
-    color: white;
-    padding: 0 1.5rem;
-    margin-right: -2.5rem;
+    border: #2b3743 solid 2px;
+    padding: 0.5rem;
+    font-family: 'iranyekan_numbers','iranyekan';
 }
 .card{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-}
-section img{
-    border-top-left-radius: 0.3rem;
-    border-top-right-radius: 0.3rem;
-
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;    
 }
 section{
-    margin-top: 1rem;
     background-color: #2b3743;
-    width: auto;
-    border-radius: 0.3rem;
-   
+    font-family: 'iranyekan_numbers','iranyekan';
+    border-radius: 0.25rem;
+    border: #2b3743 solid 2px;
+    box-shadow: 0 0 3px 0 #141c22;
+gap: 10%;
 }
-h4{
-    color: white !important;
-    margin-bottom: 1rem;
-    font-size: 1rem;
-}
-section p{
-    color: #dde2e7da;
-    font-size: 0.8rem;
-}
-section ins{
-    font-size: 0.6rem;
-    color: #dde2e781;
-    text-decoration: none;
+.image{
+    border-top-right-radius:0.25rem; 
+    border-top-left-radius:0.25rem; 
 }
 .text{
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-
-}
-/* res */
-@media(max-width:1310px){
- section{
-    width: 11.5rem;
- }
- img{
-    width: 11.5rem;
- }
- p{
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
- }
- header i span{
-    margin-right: 0.5rem;
- }
-article{
-    margin-left: 2rem;
+    margin: auto;
+    width: 90%;
 }
 h4{
-    font-size: 0.75rem;
+color: white;
+margin-bottom: 0.85rem;
 }
-article label{
-    width: 30%;
+p{
+    margin-bottom: 0.3rem;
+color: rgba(255, 255, 255, 0.747);
 }
-article select{
-    width: 34%;
-    height: 3rem;
-  }
-  article label{
-    width: 30%;
-    margin-top: 0.5rem;
-    height: 3rem;
-  }
-}
-@media(max-width:850px){
-    section{
-       width: 9.85rem;
-    }
-    img{
-       width: 9.85rem;
-    }
-   input{
-    width: 15rem;
-   }
-   }
-   @media(max-width:750px){
-    header{
-        justify-content: space-between;
-        margin-bottom: 1.3rem;
-}
-article{
-    justify-content: space-around;
-}
-article input{
-    width: 15rem !important;
-}
-article i {
-    margin-left: -14rem;
-}
-}
-@media(max-width:660px){
-    article{
-        margin-bottom: 1.3rem;
-        margin-top: 0.5rem;
-        margin-left: 3rem;
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-    }
-    article label input{
-        border-radius: 0.25rem;
-        width: 15rem;
-        padding-left: 3rem;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-        margin-bottom: 0.5rem;
-    }
-    label i {
-        margin-left: -14rem;
-    }
-    article select{
-        padding: 0 1.5rem;
-        margin-right: -2.5rem;
-        margin-bottom: 0.5rem;
-        width: 10rem;
-    }
-    .card{
-        align-items: center;
-        display: flex;
-        flex-direction: column !important;
-        justify-content: center;
-    }
-    section img{
-        border-top-left-radius: 0.3rem;
-        border-top-right-radius: 0.3rem;
-        width: 12rem ;
-    }
-    section{
-        width: 12rem;        
-    }
-    h4{
-        margin-bottom: 1rem;
-        font-size: 1rem;
-    }
-    section p{
-        font-size: 0.8rem;
-}
+ins{
+    color: rgba(255, 255, 255, 0.336);
+text-decoration: none;
 }
