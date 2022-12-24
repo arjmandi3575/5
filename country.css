@@ -27,7 +27,7 @@ header {
     background-color: #2b3743;
     box-shadow: 0 0 3px 0 #141c22;
 }
-.container{
+.container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -45,10 +45,10 @@ header i {
     margin-top: 0.9rem;
     margin-bottom: 0.9rem;
 }
-header i span{
+header i span {
     font-family: 'iranyekan_numbers','iranyekan';
 }
-input{
+input {
     color: white;
     background-color: #2b3743;
     border: #2b3743 solid 2px;
@@ -57,11 +57,11 @@ input{
     font-family: 'iranyekan_numbers','iranyekan';
     box-shadow: 0 0 3px 0 #141c22;
 }
-svg{
+svg {
     color: white;
     margin-left: -12rem;
 }
-select{
+select {
     box-shadow: 0 0 3px 0 #141c22;
     color: white;
     background-color: #2b3743;
@@ -70,38 +70,41 @@ select{
     padding: 0.5rem;
     font-family: 'iranyekan_numbers','iranyekan';
 }
-.card{
+.card {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: auto;
     width: 90%;    
 }
-section{
+section {
     background-color: #2b3743;
     font-family: 'iranyekan_numbers','iranyekan';
     border-radius: 0.25rem;
     border: #2b3743 solid 2px;
     box-shadow: 0 0 3px 0 #141c22;
-gap: 10%;
+    gap: 10%;
 }
-.image{
-    border-top-right-radius:0.25rem; 
-    border-top-left-radius:0.25rem; 
+.image {
+    border-top-right-radius: 0.25rem; 
+    background-attachment: fixed;
+    border-top-left-radius: 0.25rem; 
 }
-.text{
+.text {
     margin: auto;
     width: 90%;
 }
-h4{
+h4 {
 color: white;
 margin-bottom: 0.85rem;
 }
-p{
+p {
     margin-bottom: 0.3rem;
-color: rgba(255, 255, 255, 0.747);
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.747);
 }
-ins{
+ins {
+    font-size: 0.7rem;
     color: rgba(255, 255, 255, 0.336);
-text-decoration: none;
+    text-decoration: none;
 }
