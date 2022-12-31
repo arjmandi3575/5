@@ -21,11 +21,12 @@ html {
 }
 body {
     font-family: 'iranyekan_numbers','iranyekan';
-    background-color: #202d36;
+    background-color: #fafafa;
 }
 header {
-    background-color: #2b3743;
-    box-shadow: 0 0 3px 0 #141c22;
+    background-color: #ffffff;
+    box-shadow: 0 0 3px 0 #ffffffb4;
+
 }
 header .container {
     display: flex;
@@ -34,19 +35,19 @@ header .container {
     height: 3rem;
 }
 header p {
-    color: white;
+    color: #555658;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     font-size: 1rem;
 }
 header span {
-    color: white;
+    color: #555658;
     font-family: 'iranyekan_numbers','iranyekan';
 }
 header i {
     margin-top: 0.9rem;
     margin-bottom: 0.9rem;
-    color: white;
+    color: #555658;
 }
 .container {
     width: 90%;
@@ -56,25 +57,25 @@ header i {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    background-color: #2b3743;
+    background-color: #ffffff;
     width: 8%;
     font-family: 'iranyekan_numbers','iranyekan';
-    border: #2b3743 solid 2px;
+    border: #fafafa9f solid 2px;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    box-shadow: 0 0 3px 0 #141c22;
+    box-shadow: 0 0 3px 0 #ffffffb4;
     border-radius: 0.25rem;
 }
 .svg a {
     text-decoration: none;
     padding: 0.5rem;
-    color: white;
+    color: #585858;
 }
 svg {
     padding: 0.5rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    color: white;
+    color: black;
 }
 .card {
     display: flex;
@@ -93,7 +94,7 @@ svg {
 }
 .img img {
     width: 100%;
-    box-shadow: 0 0 3px 0 #141c22;
+    box-shadow: 0 0 3px 0 #ffffffb4;
     border-radius: 0.25rem;
 }
 .Explain {
@@ -102,15 +103,15 @@ svg {
     justify-content: space-between;
 }
 h4 {
-    color: white;
+    color: #121116;
     margin-bottom: 1rem;
 }
 p {
-    color: #dde2e7da;
+    color: #1f2022;
     font-size: 0.81rem;
 }
 span {
-    color: #dde2e781;
+    color: #767678;
 }
 .buttom {
     display: flex;
@@ -119,11 +120,10 @@ span {
 }
 .buttom a {
     text-decoration: none;
-    color: white;
+    color: #2a2a2a;
     font-size: 0.8rem;
-    background-color: #2b3743;
-    box-shadow: 0 0 3px 0 #141c22;
-    color: #dde2e781;
+    background-color: #ffffff;
+    box-shadow: 0 0 3px 0 #ffffffb4;
     width: auto;
     text-align: center;
     border-radius: 0.25rem;
@@ -179,11 +179,7 @@ span {
     }
     .buttom a {
         text-decoration: none;
-        color: white;
         font-size: 0.8rem;
-        background-color: #2b3743;
-        border: #2b3743 solid 2px;
-        color: #dde2e781;
         width: auto;
         text-align: center;
         border-radius: 0.25rem;
